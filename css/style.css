@@ -1,0 +1,230 @@
+html {
+    margin: 0px;
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0px;
+    /* border: 5px black solid; */
+    display: flex;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+#left_div {
+    margin: 0px;
+    /* border: 5px red dotted; */
+    width: 20%;
+    height: 100%;
+    background-color: #343435;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+#name {
+    font-size: 1.5em;
+    margin: 0px;
+}
+
+#tagline {
+    font-size: 0.6em;
+    margin: 0px;
+}
+
+.left_hr {
+    width: 90%;
+    border-color: gray;
+}
+
+#profile_links {
+    /* border: 1px solid white; */
+    margin: 5px;
+    display: inline-flex;
+}
+
+.profile_icon {
+    /* border: 1px dotted greenyellow; */
+    margin: 2px;
+}
+
+.icons {
+    height: 20px;
+    width: auto;
+    border-radius: 3px;
+    transition: transform 0.15s;
+    opacity: 0.8;
+}
+
+img {
+    height: 30px;
+}
+
+.icons:hover {
+    transform: scale(1.2, 1.2);
+    cursor: pointer;
+    opacity: 1;
+}
+
+.container {
+    padding: 10px;
+}
+
+#right_div {
+    /* border: 5px blue dotted; */
+    height: 100%;
+    width: 80%;
+    background-color: rgb(218, 214, 207);
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+#profile_pic {
+    height: 100%;
+    transition: transform 0.6s;   
+}
+
+#profile_div {
+    border-radius: 100%;
+    /* border: 1px solid white; */
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+#contents {
+    text-align: left;
+    font-size: 1em;
+    margin: 5%;
+    line-height: 1.5em;
+}
+
+.content_block {
+    /* border: 1px solid black; */
+    margin-bottom: 0px;
+    padding: 15px;
+    font-size: 0.75em;
+    transition: all 0.2s;
+    border-radius: 10px;
+}
+
+.content_block:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content_head {
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    /* border: 2px dotted red; */
+}
+
+.content_body {
+    /* border: 2px dotted blue; */
+    padding-left: 15px;
+    transition: all 0.2s;
+    
+    /* border-width: 15px; */
+}
+
+.content_href {
+    color: white;
+    text-decoration-line: none;
+    transition: all 0.2s;
+}
+
+#section_name {
+    font-family: 'Courier New', Courier, monospace;
+    /* border: 1px solid red; */
+}
+
+.section_href {
+    background-image: linear-gradient(to right, rgba(207, 158, 126, 0.267), rgba(204, 122, 68, 0));
+    padding: 5px 5px 1px 5px;
+    color: saddlebrown;
+    font-size: 1.15em;
+    text-decoration-line: none;
+}
+
+#course-branch {
+    font-style: italic;
+    margin: 0px;
+    padding-left: 5px;
+    color: rgb(97, 95, 93);
+}
+
+#download_btn {
+    cursor: pointer;
+    height: 30px;
+    width: 80%;
+    font-size: 0.7em;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px white solid;
+    background-color: #343435;
+    color: white;
+    border-radius: 5px;
+    margin-top: 150px;
+    /* position: absolute; */
+    /* bottom: 10px; */
+}
+
+#download_btn_a {
+    color: white;
+}
+
+.section_div {
+    /* border: 1px solid black; */
+    /* margin-bottom: 25px; */
+}
+
+#workex_pos {
+    font-style: italic;
+    margin: 0px;
+    padding-left: 5px;
+    color: rgb(97, 95, 93);
+}
+
+.section_list {
+    color:rgb(97, 95, 93);
+    text-align: left;
+    margin: 0;
+    /* border: 1px blue solid; */
+}
+
+.clickable_link {
+    color:rgb(54, 146, 250);
+    background-color: #c7e3fd;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.clickable_link:hover {
+    color: white;
+    background-color: rgb(45, 143, 255);
+}
+
+#runner_div {
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+#running_gif {
+    /* border: 1px solid red; */
+    height: 100px;
+}
+
+.achievement_href{
+    color:rgb(97, 95, 93);
+    text-align: left;
+    margin: 0;
+    text-decoration: underline steelblue;
+}
+
+#certification_list, #achievement_list, #skills_list {
+    margin-top: 10px;
+}
