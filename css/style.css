@@ -149,6 +149,12 @@ img {
     color: saddlebrown;
     font-size: 1.15em;
     text-decoration-line: none;
+    transition: background-image 2s, font-size 500ms;
+}
+
+.section_href:hover {
+    background-image: linear-gradient(to top, rgba(207, 158, 126, 0.267), rgba(204, 122, 68, 0));
+    /* font-size: 1.5em; */
 }
 
 #course-branch {
@@ -179,6 +185,7 @@ img {
 
 .section_div {
     /* border: 1px solid black; */
+    /* border-radius: 10px; */
     /* margin-bottom: 25px; */
 }
 
