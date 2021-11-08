@@ -9,6 +9,10 @@ body {
     display: flex;
 }
 
+@media screen {
+    
+}
+
 a {
     text-decoration-line: none;
     color: black;
@@ -26,12 +30,12 @@ a {
 }
 
 #name {
-    font-size: 1.5em;
+    font-size: 2em;
     margin: 0px;
 }
 
 #tagline {
-    font-size: 0.6em;
+    font-size: 1em;
     margin: 0px;
 }
 
@@ -48,11 +52,11 @@ a {
 
 .profile_icon {
     /* border: 1px dotted greenyellow; */
-    margin: 2px;
+    margin: 3px;
 }
 
 .icons {
-    height: 20px;
+    height: 3.5vh;
     width: auto;
     border-radius: 3px;
     transition: transform 0.15s;
@@ -60,7 +64,7 @@ a {
 }
 
 img {
-    height: 30px;
+    height: 80px;
 }
 
 .icons:hover {
@@ -89,20 +93,21 @@ img {
 }
 
 #profile_div {
-    border-radius: 100%;
-    /* border: 1px solid white; */
-    height: 100px;
-    width: 100px;
+    border-radius: 50%;
+    /* border: 5px solid white; */
+    height: 150px;
+    width: 150px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 10%;
     overflow: hidden;
+    background-size: 10em;
     margin-bottom: 10px;
 }
 
 #contents {
     text-align: left;
-    font-size: 1em;
-    margin: 5%;
+    font-size: 1.5em;
+    margin: 10%;
     line-height: 1.5em;
 }
 
@@ -110,13 +115,14 @@ img {
     /* border: 1px solid black; */
     margin-bottom: 0px;
     padding: 15px;
-    font-size: 0.75em;
+    /* font-size: 1em; */
     transition: all 0.2s;
     border-radius: 10px;
 }
 
 .content_block:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
 .content_head {
@@ -129,7 +135,6 @@ img {
     /* border: 2px dotted blue; */
     padding-left: 15px;
     transition: all 0.2s;
-    
     /* border-width: 15px; */
 }
 
@@ -141,14 +146,15 @@ img {
 
 #section_name {
     font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 15px;
     /* border: 1px solid red; */
 }
 
 .section_href {
     background-image: linear-gradient(to right, rgba(207, 158, 126, 0.267), rgba(204, 122, 68, 0));
-    padding: 5px 5px 1px 5px;
+    padding: 5px 5px 5px 5px;
     color: saddlebrown;
-    font-size: 1.15em;
+    font-size: 1.3em;
     text-decoration-line: none;
     transition: background-image 1s, font-size 500ms;
 }
@@ -164,7 +170,7 @@ hr {
 }
 
 #course-branch {
-    font-style: italic;
+    font-style: normal;
     margin: 0px;
     padding-left: 5px;
     color: rgb(97, 95, 93);
@@ -172,8 +178,8 @@ hr {
 
 #download_btn {
     cursor: pointer;
-    height: 30px;
-    font-size: 0.7em;
+    height: 5%;
+    font-size: 1em;
     font-family: 'Courier New', Courier, monospace;
     border: 1px white solid;
     background-color: #343435;
@@ -202,9 +208,10 @@ hr {
 }
 
 #workex_pos {
-    font-style: italic;
+    font-style: normal;
     margin: 0px;
     padding-left: 5px;
+    font-size: 1em;
     color: rgb(97, 95, 93);
 }
 
